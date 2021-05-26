@@ -134,17 +134,15 @@ html, body{
   text-align: center;
 
   margin: 0.5em;
-  padding: 0.3em;
-  padding-left: 0.7em;
-  padding-right: 0.7em;
+  padding: 0.7em;
+  padding-left: 0.9em;
+  padding-right: 0.9em;
 }
 .google_btn:hover{
   border: 0.1em solid rgba(190, 194, 199, 0.741)
 }
 
 .lucky_btn {
-  /* width: 9.5em;
-  height: 2em; */
   background-color:#f8f9fa;
   color: 3c4043;
   border-radius: 0.4em;
@@ -154,9 +152,9 @@ html, body{
   text-align: center;
 
   margin: 0.5em;
-  padding: 0.3em;
-  padding-left: 0.7em;
-  padding-right: 0.7em;  
+  padding: 0.7em;
+  padding-left: 0.9em;
+  padding-right: 0.9em; 
 }
 .lucky_btn:hover{
   border: 0.1em solid rgba(190, 194, 199, 0.741)
