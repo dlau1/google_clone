@@ -1,23 +1,204 @@
-.topnav {
-    overflow: hidden;
-    background-color: #ffffff;
-  }
-
-.topnav a {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 0.7em;
+html, body{
+  /* height: 100%; */
+  width: 100%;
+  font-family: arial,sans-serif;
+  
+  /* align-items: center; */
 }
-  apps{
-  float: left;
-    display: block;
+
+.topnav {
+    background-color: #ffffff;
+    height: 4rem;
+    
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+
+
+    align-items: center;
+    justify-content: space-between;
+  }
+.topnavLeft{
+  /* width: 15%; */
+  height: 100%;
+  /* background-color: teal; */
+  margin: 0.35em;
+
+  display: flex;
+  /* align-content: space-around; */
+  justify-content: space-around;
+  align-items: center;
+}
+
+.topnavLeft a {
+    /* float: left; */
     color: black;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
-    font-size: 0.7vw;
+    font-size: 0.8em;
+    margin: 0.55em;
+    
+}
+
+
+.topnavRight {
+  /* background-color: yellowgreen; */
+
+  /* width: 25%; */
+  
+  display: flex;
+
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  /* margin: 0.35em; */
+  margin: 0.5em;
+}
+
+.topnavRight a {
+  
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.7em;
+  margin: 1em;
+}
+
+.topnavRight img {
+  width: 1.25em;
+  height: 1.25em;
+  margin: 1em;
+}
+
+#avatar {
+  width: 3.5em;
+  height: 3.5em;
+}
+.app:hover {
+  border-radius: 50%;
+  background-color: rgb(245, 245, 245);
+}
+.underline:hover {
+  text-decoration: underline;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  height: 37.5rem;
+  justify-content: center;
+  align-items: center;
+  
+}
+.logo {
+
+}
+
+.search {
+  margin: 1.5em;
+}
+
+.inputBox {
+
+  padding: 1em; 
+  border-radius: 2em;
+  border: 0.1em solid rgba(190, 194, 199, 0.741);
+  width: 40em;
+  height: 1.5em;
+  
+  background-image: url("/images/search.png");
+  background-repeat: no-repeat;
+  background-size: 2em;
+
+  background-position: 2%; 
+  
+  text-indent: 2.5em;
+  background-color: white;
+  
+  outline:none;
+}
+
+.search-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+.google_btn {
+  background-color:#f8f9fa;
+  color: 3c4043;
+  border-radius: 0.4em;
+  border: 0.1em solid #f8f9fa;
+
+  font-size: 0.9em;
+  text-align: center;
+
+  margin: 0.5em;
+  padding: 0.3em;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+}
+.google_btn:hover{
+  border: 0.1em solid rgba(190, 194, 199, 0.741)
+}
+
+.lucky_btn {
+  /* width: 9.5em;
+  height: 2em; */
+  background-color:#f8f9fa;
+  color: 3c4043;
+  border-radius: 0.4em;
+  border: 0.1em solid #f8f9fa;
+
+  font-size: 0.9em;
+  text-align: center;
+
+  margin: 0.5em;
+  padding: 0.3em;
+  padding-left: 0.7em;
+  padding-right: 0.7em;  
+}
+.lucky_btn:hover{
+  border: 0.1em solid rgba(190, 194, 199, 0.741)
+}
+
+.botnav{
+  height: 3rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0em;
+
+  background-color: #f2f2f2;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.botnavLeft {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  margin: 0.35em;
+  margin-left: 2em;
+}
+.botnavLeft a{
+  color: gray;
+  font-size: 0.8em;
+  text-decoration: none;
+  margin: 0.7em;
+}
+.botnavRight {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 0.35em;
+  margin-right: 2em;
+}
+
+.botnavRight a{
+  color: gray;
+  font-size: 0.8em;
+  text-decoration: none;
+  margin: 0.7em;
 }
